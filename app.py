@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 openai.api_key = OPENAI_API_KEY
 
-@app.route('/helloflask', methods=['GET'])
+@app.route('/hello', methods=['GET'])
 def hello_flask():
     return "hello, flask!"
 
